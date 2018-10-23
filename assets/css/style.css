@@ -6,6 +6,8 @@
 .box{
     box-sizing: border-box;
     text-align: center;
+    border: 1px solid black;
+    background-color: #cccccc;
 }
 
 .header{
@@ -13,18 +15,88 @@
     text-align: center;
     border: 1px solid #cccccc;
     width: 960px;
-    height: 0px;
+    height: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#YourName{
+#Your-name{
     background-color: teal;
     border: 1px solid #cccccc;
-    width: 100px;
-    height: 40px;
-    padding: 20px 10px 10px 20px ;
-    margin-left: 0;
-    margin-bottom: 0;
+    width: 140px;
+    height: 30px;
+    padding: 20px 20px 20px 20px ;
+    margin-left: 0px;
+    margin-bottom: 0px;
     color: #ffffff;
+    font-size: 20px;
     font-weight: bold;
-    
+    float: left;   
+}
+#About{
+    border-right-style: solid 1px black;
+    color: #777777;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right-style: solid ;
+    border-right-color: #cccccc;
+    border-right-width: 0.2px;
+    width: 80px;
+    height: 10px;
+    margin-top: 31px;
+    margin-bottom: 0;
+    margin-right: 160; 
+    padding: 6px 9px 9px 6px  ;
+    float: right;
+}
+#Portfolio{
+    border-right-style: solid 1px black;
+    color: #777777;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right-style: solid ;
+    border-right-color: #cccccc;
+    border-right-width: 0.2px;
+    width: 80px;
+    height: 10px;
+    margin-top: 31px;
+    margin-bottom: 0;
+    margin-right: 80; 
+    padding: 6px 9px 9px 6px ;
+    float: right;
+}
+#Contact{
+    border-right-style: solid 1px black;
+    color: #777777;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80px;
+    height: 10px;
+    margin-top: 31px;
+    margin-bottom: 0;
+    margin-right: 0; 
+    padding: 6px 9px 9px 6px ;
+    float: right;
+}
+.container{
+    clear: both;
+    width: 750px;
+    height: 500px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+#h1{
+    color: teal;
+    font-size: 18px;
+}
+#bio-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-right: 40px;
+}
+#bio{
+    float: right;
+    font-size: 16px;
+    color: #777777;
 }
