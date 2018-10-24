@@ -84,10 +84,11 @@
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 20px;
+    margin-left: 100px;
 }
 #h1{
     color: teal;
-    font-size: 18px;
+    font-size: 22px;
 }
 #bio-image{
     float: left;
@@ -95,8 +96,26 @@
     width: 200px;
     margin-right: 40px;
 }
-#bio{
+#content{
     float: right;
-    font-size: 16px;
+    font-size: 14px;
     color: #777777;
+    margin-left: 20px;
+}
+.footer{
+    clear: both;
+    width: 960px;
+    height: 8px;
+    margin-top: 30px;
+    
+    border-top-style: solid;
+    border-top-color: teal;
+    border-top-width: 5px; 
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 32px;
+    padding-bottom: 3px;
+    font-size: 10px;
+    color: #cccccc;
 }
