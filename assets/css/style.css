@@ -93,20 +93,31 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px; 
     margin-left: 100px;
-    margin-bottom: 60px;
+    margin-bottom: 67px;
 }
 #h1{
     color: teal;
     font-size: 22px;
+    border-bottom: #777777 solid 0.5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+#bio{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    color: #777777;  
 }
 #bio-image{   
     height: 150px;
     width: 150px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
 }
-#bio{
-    font-size: 12px;
-    color: #777777;  
+#p1{
+    float : left ;
 }
 .footer{
     clear: both;
@@ -121,6 +132,5 @@
     padding-top: 32px;
     padding-bottom: 6px;
     font-size: 10px;
-    color: #cccccc;
-    margin-bottom: 0px;
+    color: #cccccc;   
 }
