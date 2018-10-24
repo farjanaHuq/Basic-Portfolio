@@ -103,8 +103,46 @@
     border-bottom: #cccccc solid 0.5px;
     margin: 20px;
 }
+#info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 20px;
+}
+#box1{
+    margin-left: 1px;
+    margin-right: 21px;
+    height: 20px;
+    width: 555px;
+    border: 0.5px solid #cccccc;
+}
+#box2{
+    margin-left: 1px;
+    margin-right: 21px;
+    height: 20px;
+    width: 555px;
+    border: 0.5px solid #cccccc;
+}
+#box3{
+    margin-left: 1px;
+    margin-right: 21px;
+    height: 120px;
+    width: 555px;
+    border: 0.5px solid #cccccc;
+}
+#box4{
+    margin-left: 1px;
+    margin-right: 21px;
+    height: 20px;
+    width: 65px;
+    border: 0.5px solid #cccccc;
+    text-align: center;
+    padding-top: 5px;
+    background-color: teal;
+    color: #ffffff;
+}
+
 .footer{
-    clear: both;
     width: 960px;
     height: 7px;
     border-top-style: solid;
