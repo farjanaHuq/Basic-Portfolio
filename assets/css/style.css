@@ -87,21 +87,21 @@
 .content{
     clear: both;
     width: 750px;
-    height: 75%x;
+    height: 420px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px; 
     margin-left: 100px;
     margin-bottom: 67px;
+    line-height: 100%;
 }
 #h1{
     color: teal;
     font-size: 22px;
+    padding-bottom: 20px;
     border-bottom: #777777 solid 0.5px;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 #bio{
     margin-left: 20px;
