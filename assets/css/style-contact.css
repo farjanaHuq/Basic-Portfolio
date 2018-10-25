@@ -5,18 +5,17 @@
 
 .box{
     box-sizing: border-box;
-    text-align: center;
-
+    text-align: center;   
     background-color: #cccccc;
 }
 
 .header{
     background-color: #ffffff;
     text-align: center;
-    border-bottom: #777777ee solid 0.5px;
     width: 960px;
     height: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2px;
     
 }
 #Your-name{
@@ -25,12 +24,28 @@
     width: 140px;
     height: 30px;
     padding: 20px 20px 20px 20px ;
-    margin-left: 70px;
+    margin-left: 220px;
     margin-bottom: 0px;
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
     float: left;   
+}
+#Contact-header{
+    border-right-style: solid 1px black;
+    color: #777777;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-right-style: solid ;
+    border-right-color: #cccccc;
+    border-right-width: 0.2px;
+    width: 80px;
+    height: 10px;
+    margin-top: 31px;
+    margin-bottom: 0;
+    margin-right: -260; 
+    padding: 6px 9px 9px 6px ;
+    float: right;
 }
 #About{
     border-right-style: solid 1px black;
@@ -44,8 +59,8 @@
     height: 10px;
     margin-top: 31px;
     margin-bottom: 0;
-    margin-right: 160; 
-    padding: 6px 9px 9px 6px  ;
+    margin-right: -80px; 
+    padding: 6px 5px 9px 11px  ;
     float: right;
 }
 #Portfolio{
@@ -60,8 +75,8 @@
     height: 10px;
     margin-top: 31px;
     margin-bottom: 0;
-    margin-right: 80; 
-    padding: 6px 9px 9px 6px ;
+    margin-right: -160px; 
+    padding: 6px 6px 9px 12px ;
     float: right;
 }
 #Contact{
@@ -73,27 +88,27 @@
     height: 10px;
     margin-top: 31px;
     margin-bottom: 0;
-    margin-right: 0; 
+    margin-right: -240px; 
     padding: 6px 9px 9px 6px ;
     float: right;
 }
-.container{
-    width: 960px;
-    height: 528px;
+.container{   
+    height: 815px;
     border: solid 1px #cccccc;
     background-color: #cccccc;
     margin-top: 0;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 .content{
     clear: both;
-    width: 600px;
-    height: 400px;
+    width: 960px;
+    height: 420px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px; 
-    margin-left: 180px;
-    margin-bottom: 67px;
+    margin-left: 220px;
     line-height: 100%;
 }
 #h1{
@@ -103,47 +118,49 @@
     border-bottom: #cccccc solid 0.5px;
     margin: 20px;
 }
-#info{
+
+
+input[type=text], select {
+    width: 920px;
+    padding: 12px 20px;
+    margin: 8px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#name,
+#email,
+#message{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    color: #cccccc;
-    margin-left: 20px;
+    margin-inline-start: 15px;
 }
-#box1{
-    margin-left: 1px;
-    margin-right: 21px;
-    height: 20px;
-    width: 555px;
-    border: 0.5px solid #cccccc;
+#message{
+    width: 920px;
+    height:100px;
+    margin-left: 15px;
 }
-#box2{
-    margin-left: 1px;
-    margin-right: 21px;
-    height: 20px;
-    width: 555px;
-    border: 0.5px solid #cccccc;
-}
-#box3{
-    margin-left: 1px;
-    margin-right: 21px;
-    height: 120px;
-    width: 555px;
-    border: 0.5px solid #cccccc;
-}
-#box4{
-    margin-left: 1px;
-    margin-right: 21px;
-    height: 20px;
-    width: 65px;
-    border: 0.5px solid #cccccc;
-    text-align: center;
-    padding-top: 5px;
+input[type=submit]{
     background-color: teal;
+    width: 80px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
+    margin-left: 15px;
+    margin-top: 10px;
+    border-radius: 2px;
+}
+input[type=submit]:hover {
+    background-color: rgb(37, 80, 80);
+    width: 80px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-left: 15px;
 }
 
 .footer{
-    width: 960px;
+    width: 1423px;
     height: 7px;
     border-top-style: solid;
     border-top-color: teal;
@@ -152,8 +169,11 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding-top: 32px;
-    padding-bottom: 6px;
+    padding-bottom: 10px;
     font-size: 10px;
-    color: #cccccc;   
-    margin-bottom: 0;
+    color: #cccccc; 
+    margin-top: 340px;
+    margin-left: -223px; 
+    margin-right: -3px; 
+  
 }

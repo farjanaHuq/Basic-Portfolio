@@ -34,26 +34,31 @@
     <div class="container">
         <div class="content">
             <section>
-                    <h1 id="h1">Contact</h1>
+                <h1 id="h1">Contact</h1>
             </section>
-            <section id ="info">
-                <form>
-                    <label>Name:</label> <input type = "text" placeholder="your name" />
-                    <p id ="box1"> John Smith</p>
-                    <p id="email">Email
-                    <p id="box2">example@gmail.com</p>
-                    <p id="message">Message</p>
-                    <textarea></textarea>
-                    <button>Submit</button>>
-            </form>
-            </section>
-            
-            
+            <div>
+                <form action="/action_page.php">
+                    <label id="name">Name</label>
+                    <input type="text" id="fname" name="name" placeholder="Your name..">
+
+                    <label id="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email address..">
+
+                    <label id="message">Message</label>
+                    <input type="text" id="message" name="message" style: width="500", height="200" placeholder=" ">
+                    
+
+                    <input type="submit" value="Submit">
+                </form>
+
+
+
+
+            </div>
+            <div class="footer">
+                copyright©
+            </div>
         </div>
-        <div class="footer">
-            copyright©
-        </div>
-    </div>
 </body>
 
 </html>
