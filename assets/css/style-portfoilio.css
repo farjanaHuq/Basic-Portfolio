@@ -5,17 +5,18 @@
 
 .box{
     box-sizing: border-box;
-    text-align: center;   
+    text-align: center;
+
     background-color: #cccccc;
 }
 
 .header{
     background-color: #ffffff;
     text-align: center;
+    border-bottom: #777777ee solid 0.5px;
     width: 960px;
     height: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-left: 2px;
     
 }
 #Your-name{
@@ -24,28 +25,12 @@
     width: 140px;
     height: 30px;
     padding: 20px 20px 20px 20px ;
-    margin-left: 220px;
+    margin-left: 70px;
     margin-bottom: 0px;
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
     float: left;   
-}
-#Contact-header{
-    border-right-style: solid 1px black;
-    color: #777777;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-    border-right-style: solid ;
-    border-right-color: #cccccc;
-    border-right-width: 0.2px;
-    width: 80px;
-    height: 10px;
-    margin-top: 31px;
-    margin-bottom: 0;
-    margin-right: -260; 
-    padding: 6px 9px 9px 6px ;
-    float: right;
 }
 #About{
     border-right-style: solid 1px black;
@@ -59,8 +44,8 @@
     height: 10px;
     margin-top: 31px;
     margin-bottom: 0;
-    margin-right: -80px; 
-    padding: 6px 5px 9px 11px  ;
+    margin-right: 160; 
+    padding: 6px 9px 9px 6px  ;
     float: right;
 }
 #Portfolio{
@@ -75,8 +60,8 @@
     height: 10px;
     margin-top: 31px;
     margin-bottom: 0;
-    margin-right: -160px; 
-    padding: 6px 6px 9px 12px ;
+    margin-right: 80; 
+    padding: 6px 9px 9px 6px ;
     float: right;
 }
 #Contact{
@@ -88,27 +73,26 @@
     height: 10px;
     margin-top: 31px;
     margin-bottom: 0;
-    margin-right: -240px; 
+    margin-right: 0; 
     padding: 6px 9px 9px 6px ;
     float: right;
 }
-.container{   
-    height: 570px;
+.container{
+    width: 960px;
+    height: 528px;
     border: solid 1px #cccccc;
     background-color: #cccccc;
     margin-top: 0;
-    margin-left: 2px;
-    margin-right: 2px;
 }
 .content{
     clear: both;
-    width: 960px;
-    height: 420px;
+    width: 600px;
+    height: 400px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px; 
-    margin-left: 220px;
+    margin-left: 180px;
     margin-bottom: 67px;
     line-height: 100%;
 }
@@ -119,25 +103,55 @@
     border-bottom: #cccccc solid 0.5px;
     margin: 20px;
 }
-#bio{
+#info{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #cccccc;
     margin-left: 20px;
-    margin-right: 20px;
-    font-size: 14px;
-    color: #777777;  
 }
-#bio-image{   
-    height: 150px;
-    width: 150px;
-    margin-left: 20px;
-    margin-right: 20px;
+#box1{
+    margin-left: 1px;
+    margin-right: 21px;
+    height: 100px;
+    width: 100px;
+    border: 0.5px solid #cccccc;
     float: left;
 }
-#p1{
-    float : left ;
+#box2{
+    margin-left: 1px;
+    margin-right: 21px;
+    height: 100px;
+    width: 100px;
+    border: 0.5px solid #cccccc;
+    float: left;
 }
-.footer{
-    clear: both;
+#box3{
+    margin-left: 1px;
+    margin-right: 21px;
+    height: 100px;
+    width: 100px;
+    border: 0.5px solid #cccccc;
+    float: left;
+}
+#box4{
+    margin-left: 1px;
+    margin-right: 21px;
+    height: 100px;
+    width: 100px;
+    border: 0.5px solid #cccccc;
+    float: right;
+}
+#box5{
+    margin-left: 1px;
+    margin-right: 21px;
+    height: 100px;
+    width: 100px;
+    border: 0.5px solid #cccccc;
+    float: right;
+}
 
+.footer{
+    width: 960px;
     height: 7px;
     border-top-style: solid;
     border-top-color: teal;
@@ -149,4 +163,5 @@
     padding-bottom: 6px;
     font-size: 10px;
     color: #cccccc;   
+    margin-bottom: 0;
 }
