@@ -94,7 +94,6 @@
 }
 .container{   
     height: 815px;
-    border: solid 1px #cccccc;
     background-color: #cccccc;
     margin-top: 0;
     margin-left: 2px;
@@ -109,6 +108,7 @@
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 30px; 
     margin-left: 220px;
+    margin-bottom: 533px;
     line-height: 100%;
 }
 #h1{
@@ -137,7 +137,7 @@ input[type=text], select {
 }
 #message{
     width: 920px;
-    height:100px;
+    height:120px;
     margin-left: 15px;
 }
 input[type=submit]{
@@ -172,7 +172,6 @@ input[type=submit]:hover {
     padding-bottom: 10px;
     font-size: 10px;
     color: #cccccc; 
-    margin-top: 340px;
     margin-left: -223px; 
     margin-right: -3px; 
   
