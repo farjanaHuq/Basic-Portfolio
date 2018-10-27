@@ -93,21 +93,23 @@
     float: right;
 }
 .container{ 
-    clear: both; 
+     
     width: 100%; 
-    height: 1015px;
+    height: 100%;
     background-color: #cccccc;
     margin-top: 0;
     margin-left: 2px;
     margin-right: 2px;
 }
 .content{
+    clear: both;
+    overflow: auto;
     width: 960px;
     height: 920px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px; 
+    margin-top: 50px; 
     margin-left: 220px;
     margin-right: 200px;
     margin-bottom: 233px;
@@ -120,28 +122,41 @@
     border-bottom: #cccccc solid 0.5px;
     margin: 20px;
 }
-#columns {
-    
-    width: 650px;
-    margin-left: 230px;
-    display: grid;
+#columns {  
+    width: 400px;
     height: 750px;
+    margin-left: 15px;
 }
 
 #row1 td, #row2 td, #row3 td{
     width: 200px;
     height: 200px;
-    padding: 20px;
-    border: solid 2px black;
-   grid-row-gap: 40px;
-    grid-row-gap: 100px;
 }
-#img1,#img2, #img3,#img4, #img5{
+#img1, #img3,#img5{
     width: 200px;
     height: 200px;
+    padding-right: 10px;
 }
+#img2, #img4{
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+}
+#text1, #text2, #text3, #text4, #text5{
+    width: 200px;
+    height: 25px;
+    background-color: teal;
+    color: #cccccc;
+    text-align: center;
+    padding-top: 5px;
+}
+/*
+#text2,#text4{
+    padding-right: 15px;
+   
+}*/
 .footer{
-    width: 1600px;
+    width: 1423px;
     height: 7px;
     border-top-style: solid;
     border-top-color: teal;
@@ -153,5 +168,4 @@
     padding-bottom: 10px;
     font-size: 10px;
     color: #cccccc; 
-    margin-left:-250px; 
 }
