@@ -16,7 +16,6 @@
     height: 70px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 2px;
-    
 }
 #Your-name{
     background-color: teal;
@@ -25,7 +24,6 @@
     height: 30px;
     padding: 20px 20px 20px 20px ;
     margin-left: 220px;
-    margin-bottom: 0px;
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
@@ -42,7 +40,6 @@
     width: 80px;
     height: 10px;
     margin-top: 31px;
-    margin-bottom: 0px;
     margin-right: -260; 
     padding: 6px 9px 9px 6px ;
     float: right;
@@ -58,7 +55,6 @@
     width: 80px;
     height: 10px;
     margin-top: 31px;
-    margin-bottom: 0;
     margin-right: -80px; 
     padding: 6px 5px 9px 11px  ;
     float: right;
@@ -74,7 +70,6 @@
     width: 80px;
     height: 10px;
     margin-top: 31px;
-    margin-bottom: 0;
     margin-right: -160px; 
     padding: 6px 6px 9px 12px ;
     float: right;
@@ -87,31 +82,29 @@
     width: 80px;
     height: 10px;
     margin-top: 31px;
-    margin-bottom: 0;
     margin-right: -240px; 
     padding: 6px 9px 9px 6px ;
     float: right;
 }
-.container{   
-    
+.container{  
+    clear: both; 
     width: 100%;
-    height: 100%;
+    height: 1015px;
     background-color: #cccccc;
-    margin-top: 0px;
     margin-left: 2px;
     margin-right: 2px;
+    padding-top: 30px;
 }
 .content{   
-    clear: both;
-    overflow: auto;
+    position:relative;
+    left: 220px;
+    right: 200px;
     width: 960px;
     height: 420px;
     border: 1px solid #dddddd;
     background-color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 30px; 
-    margin-left: 220px;
-    margin-bottom: 543px;
+    margin-bottom: 590px;
     line-height: 100%;
 }
 #h1{
@@ -136,13 +129,15 @@ input[type=text], select {
 #email,
 #message{
     font-family: Arial, Helvetica, sans-serif;
-   
+  
 }
 #message{
     width: 920px;
     height:120px;
 }
-
+#Contact:hover{
+    background-color: azure;
+}
 input[type=submit]{
     background-color: teal;
     width: 80px;
@@ -153,17 +148,26 @@ input[type=submit]{
     margin-top: 10px;
     border-radius: 2px;
 }
+
+input[type=submit]:active {
+    background-color: rgb(115, 245, 245);
+}
+
 input[type=submit]:hover {
     background-color: rgb(37, 80, 80);
-    width: 80px;
-    height: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #ffffff;
-    margin-left: 15px;
+}
+
+input[type=submit]:focus{
+    background-color:rgb(29, 124, 124);
+}
+input[type=submit]:active{
+    background-color:rgb(32, 204, 204);
 }
 
 .footer{
-    width: 1420px;
+    position: -webkit-sticky;
+    position: sticky;
+    width: 1424px;
     height: 7px;
     border-top-style: solid;
     border-top-color: teal;
@@ -174,8 +178,5 @@ input[type=submit]:hover {
     padding-top: 32px;
     padding-bottom: 10px;
     font-size: 10px;
-    color: #cccccc;  
-    margin-left: -221px; 
-    margin-top: 800px;
-
+    color: #cccccc;   
 }
